@@ -52,7 +52,10 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.CubePlay" name="Cube Play" version="1.0.1" provider-name="CubePlay">
+<addon id="plugin.video.CubePlay" name="Cube Play" version="1.0.2" provider-name="CubePlay">
+  <requires>
+	<import addon="pvr.iptvsimple" version="7.5.1" />
+  </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
@@ -67,9 +70,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.0.4" provider-name="CubePlayMeta">
+<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.0.5" provider-name="CubePlayMeta">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.39" />
+	<import addon="script.trakt" version="3.4.1" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>

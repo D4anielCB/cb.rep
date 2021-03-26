@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.0.3" provider-name="CubePlayMeta">
+<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.0.4" provider-name="CubePlayMeta">
   <requires>
-	<import addon="script.module.metadatautilsmod" version="1.0.0" />
+	<import addon="script.module.metadatautilsmod" version="1.0.39" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>

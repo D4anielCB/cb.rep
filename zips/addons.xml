@@ -19,6 +19,18 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.cbID" name="cbID " version="1.0.0" provider-name="cbID ">
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en"></description>
+    <platform>all</platform>
+	<news>
+	</news>
+  </extension>
+</addon>
+
 <addon id="plugin.video.crunchyroll" name="Crunchyroll" version="3.1.1" provider-name="MrKrabat">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -70,10 +82,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.0.13" provider-name="CubePlayMeta">
+<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.0.14" provider-name="CubePlayMeta">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.41" />
 	<import addon="script.trakt" version="3.4.1" />
+	<import addon="plugin.video.cbID" version="1.0.0" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>

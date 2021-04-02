@@ -19,7 +19,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.cbID" name="cbID " version="1.0.0" provider-name="cbID ">
+<addon id="plugin.video.cbID" name="cbID " version="1.0.1" provider-name="cbID ">
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
@@ -82,11 +82,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.0.14" provider-name="CubePlayMeta">
+<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.0.15" provider-name="CubePlayMeta">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.41" />
 	<import addon="script.trakt" version="3.4.1" />
-	<import addon="plugin.video.cbID" version="1.0.0" />
+	<import addon="plugin.video.cbID" version="1.0.1" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>

@@ -1,2 +1,2 @@
 # Cubeplay.repo Matrix
-https://d4anielcb.github.io/cb.rep/r/
+https://d4anielcb.github.io/

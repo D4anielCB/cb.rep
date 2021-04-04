@@ -64,7 +64,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.CubePlay" name="Cube Play" version="1.0.2" provider-name="CubePlay">
+<addon id="plugin.video.CubePlay" name="Cube Play" version="1.0.3" provider-name="CubePlay">
   <requires>
 	<import addon="pvr.iptvsimple" version="7.5.1" />
   </requires>

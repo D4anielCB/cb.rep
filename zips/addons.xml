@@ -103,13 +103,16 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.0.1" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.0.2" provider-name="Cubeplay">
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <description lang="en">.</description>
     <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
 	<news>
 	</news>
   </extension>

@@ -103,7 +103,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.1.16" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.1.17" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -357,7 +357,7 @@ v5.1.2 (2020-03-21) by enen92
 	</extension>
 </addon>
 
-<addon id="skin.estuarymod" version="3.1.6" name="Estuary Mod" provider-name="phil65, Ichabod Fletchman, Cubeplay">
+<addon id="skin.estuarymod" version="3.1.7" name="Estuary Mod" provider-name="phil65, Ichabod Fletchman, Cubeplay">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>

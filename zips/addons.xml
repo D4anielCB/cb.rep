@@ -82,7 +82,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.2.3" provider-name="CubePlayMeta">
+<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.2.4" provider-name="CubePlayMeta">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.41" />
 	<import addon="script.trakt" version="3.4.1" />
@@ -103,7 +103,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.2.0" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.2.1" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>

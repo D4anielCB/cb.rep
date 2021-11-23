@@ -103,7 +103,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.3.1" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.3.2" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -114,6 +114,7 @@
     <description lang="en">
 1.3.0 - Dowload não irá parar e recomeçar se acessado o mesmo video
 1.3.1 - Melhorado a forma de exibir os episódios (não mostrar os não exibidos ainda)
+1.3.2 - Adicionado a opção de URL externa
 	</description>
     <platform>all</platform>
     <assets>

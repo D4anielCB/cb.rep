@@ -103,7 +103,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.3.5" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.3.6" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -118,6 +118,7 @@
 1.3.3 - Pequenos ajustes
 1.3.4 - Favoritos trailers.to
 1.3.5 - Busca usando google caso não funcione a busca do Trailers.to
+1.3.6 - Implemntado indicação de assistidos para seasons
 	</description>
     <platform>all</platform>
     <assets>

@@ -33,19 +33,26 @@ def TRTV(number,tvshowmovie):
 	#fim={"tt15763882": "5063287","tt13161356": "5038705"}
 	#fim={"tt15763882": "5063287", "tt12680684": "4714806"}
 	fim = eval(RT(tvshowmovie+".txt"))
-	ST(number,arquivo="_"+tvshowmovie+".txt")
+	#ST(number,arquivo="_"+tvshowmovie+".txt")
+	fim["id"]=number
 	for type,id,imdb in trtvre:
 		fim[imdb]=id
 	#print(fim)
 	ST(fim,arquivo=tvshowmovie+".txt",tipo=False)
-	print(number)
+	print (tvshowmovie+ " " + str(number))
 	TRTV(number+1,tvshowmovie)
+#print("Páginas "+str(fim["id"]))
 print("1) Filmes")
 print("2) Séries")
-d = input('Digite o tipo:')
-d2 = input('Começar da página:')
+d = input('Digite o tipo: ')
 if d == "1":
+	fim = eval(RT("movies.txt"))
+	print("Páginas "+str(fim["id"]))
+	d2 = input('Começar da página: ')
 	TRTV(int(d2),"movies")
 else:
+	fim = eval(RT("tvshows.txt"))
+	print("Páginas "+str(fim["id"]))
+	d2 = input('Começar da página: ')
 	TRTV(int(d2),"tvshows")
 #ST(trtvre,tipo=False)

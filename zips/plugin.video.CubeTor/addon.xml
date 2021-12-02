@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.3.8" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.3.9" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -17,6 +17,7 @@
 1.3.6 - Implemntado indicação de assistidos para seasons
 1.3.7 - Fix Busca usando google + Download manual trtv adicionado play
 1.3.8 - Fix Fav Trtv.to
+1.3.9 - Bypass buscar trtv usando github
 	</description>
     <platform>all</platform>
     <assets>

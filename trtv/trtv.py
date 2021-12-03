@@ -34,7 +34,8 @@ def TRTV(number,tvshowmovie):
 	#fim={"tt15763882": "5063287", "tt12680684": "4714806"}
 	fim = eval(RT(tvshowmovie+".txt"))
 	#ST(number,arquivo="_"+tvshowmovie+".txt")
-	fim["id"]=number
+	if number>=fim["id"]:
+		fim["id"]=number
 	for type,id,imdb in trtvre:
 		fim[imdb]=id
 	#print(fim)

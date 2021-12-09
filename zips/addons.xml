@@ -19,7 +19,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.cbID" name="cbID " version="1.0.2" provider-name="cbID ">
+<addon id="plugin.video.cbID" name="cbID " version="1.0.3" provider-name="cbID ">
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
@@ -82,7 +82,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.2.12" provider-name="CubePlayMeta">
+<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.2.13" provider-name="CubePlayMeta">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.41" />
 	<import addon="script.trakt" version="3.4.1" />
@@ -103,7 +103,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.4.0" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.4.1" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -124,6 +124,7 @@
 1.3.9 - Bypass buscar trtv usando github (Séries)
 1.3.10 - Bypass buscar trtv usando github (Filmes)
 1.4.0 - Nova forma de retorno id trtv
+1.4.1 - Marcado como visto as séries que já foram vistas
 	</description>
     <platform>all</platform>
     <assets>

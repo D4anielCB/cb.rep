@@ -21,7 +21,7 @@ def ST(x="", o="w", tipo=True, arquivo="study.txt"):
 		file.write(y)
 	file.close()
 
-log = RT("kodi.log")
+log = RT("../kodi.log")
 #log2 = re.sub('\r', '\r\n', log)
 logre = re.compile("cBlack\".+?(http.+)").findall(log)
 

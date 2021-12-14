@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.cbID" name="cbID " version="1.0.3" provider-name="cbID ">
+<addon id="plugin.video.cbID" name="cbID " version="1.0.4" provider-name="cbID ">
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>

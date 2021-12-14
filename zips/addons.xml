@@ -19,7 +19,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.cbID" name="cbID " version="1.0.3" provider-name="cbID ">
+<addon id="plugin.video.cbID" name="cbID " version="1.0.4" provider-name="cbID ">
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
@@ -371,7 +371,7 @@ v5.1.2 (2020-03-21) by enen92
 	</extension>
 </addon>
 
-<addon id="skin.estuarymod" version="3.1.10" name="Estuary Mod" provider-name="phil65, Ichabod Fletchman, Cubeplay">
+<addon id="skin.estuarymod" version="3.1.11" name="Estuary Mod" provider-name="phil65, Ichabod Fletchman, Cubeplay">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>

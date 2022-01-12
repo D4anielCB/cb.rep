@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.4.4" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.4.5" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -24,6 +24,7 @@
 1.4.2 - Alterado opções de proxima reproducao (trakt)
 1.4.3 - Fix proxy
 1.4.4 - Fix url trailers.to
+1.4.5 - Adicionado indicações de filmes
 	</description>
     <platform>all</platform>
     <assets>

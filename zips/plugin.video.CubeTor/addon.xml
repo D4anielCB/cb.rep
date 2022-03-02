@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.4.7" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.4.8" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -27,6 +27,7 @@
 1.4.5 - Adicionado indicações de filmes
 1.4.6 - Fix url trtv
 1.4.7 - fix imdb trtv
+1.4.8 - fix url trtv
 	</description>
     <platform>all</platform>
     <assets>

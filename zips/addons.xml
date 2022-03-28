@@ -64,7 +64,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.CubePlay" name="Cube Play" version="1.0.13" provider-name="CubePlay">
+<addon id="plugin.video.CubePlay" name="Cube Play" version="1.0.14" provider-name="CubePlay">
   <requires>
 	<import addon="pvr.iptvsimple" version="7.5.1" />
   </requires>
@@ -82,7 +82,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.2.20" provider-name="CubePlayMeta">
+<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.2.21" provider-name="CubePlayMeta">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.41" />
 	<import addon="script.trakt" version="3.4.1" />

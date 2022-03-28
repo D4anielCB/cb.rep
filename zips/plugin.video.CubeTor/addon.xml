@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.4.9" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.5.0" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -29,6 +29,7 @@
 1.4.7 - fix imdb trtv
 1.4.8 - fix url trtv
 1.4.9 - fix 2022 year missing
+1.5.0 - Fix no erro de season e epis (provisorio?) do trailers.to
 	</description>
     <platform>all</platform>
     <assets>

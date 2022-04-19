@@ -103,7 +103,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.5.2" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.5.3" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -136,6 +136,7 @@
 1.5.0 - Fix no erro de season e epis (provisorio?) do trailers.to
 1.5.1 - improve url + elementum, clean download path
 1.5.2 - Next Tor
+1.5.3 - Retorno (1.5.0) fix season e epi do trailers.to
 	</description>
     <platform>all</platform>
     <assets>

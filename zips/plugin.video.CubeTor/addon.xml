@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.5.3" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.5.4" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -33,6 +33,7 @@
 1.5.1 - improve url + elementum, clean download path
 1.5.2 - Next Tor
 1.5.3 - Retorno (1.5.0) fix season e epi do trailers.to
+1.5.4 - Minor tweaks (sort episode/status)
 	</description>
     <platform>all</platform>
     <assets>

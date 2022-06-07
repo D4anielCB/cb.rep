@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.CubePlay" name="Cube Play" version="1.0.19" provider-name="CubePlay">
+<addon id="plugin.video.CubePlay" name="Cube Play" version="1.0.20" provider-name="CubePlay">
   <requires>
 	<import addon="pvr.iptvsimple" version="7.5.1" />
   </requires>

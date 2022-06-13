@@ -64,7 +64,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.CubePlay" name="Cube Play" version="1.0.20" provider-name="CubePlay">
+<addon id="plugin.video.CubePlay" name="Cube Play" version="1.0.21" provider-name="CubePlay">
   <requires>
 	<import addon="pvr.iptvsimple" version="7.5.1" />
   </requires>
@@ -82,7 +82,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.2.25" provider-name="CubePlayMeta">
+<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.2.26" provider-name="CubePlayMeta">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.41" />
 	<import addon="script.trakt" version="3.4.1" />
@@ -103,7 +103,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.5.4" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.5.5" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -138,6 +138,7 @@
 1.5.2 - Next Tor
 1.5.3 - Retorno (1.5.0) fix season e epi do trailers.to
 1.5.4 - Minor tweaks (sort episode/status)
+1.5.5 - Minor fixes
 	</description>
     <platform>all</platform>
     <assets>

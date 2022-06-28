@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.2.26" provider-name="CubePlayMeta">
+<addon id="plugin.video.CubePlayMeta" name="Cube Play Meta" version="1.2.27" provider-name="CubePlayMeta">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.41" />
 	<import addon="script.trakt" version="3.4.1" />

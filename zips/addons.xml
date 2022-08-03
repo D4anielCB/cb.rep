@@ -103,7 +103,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.CubeTor" name="CubeTor" version="1.5.5" provider-name="Cubeplay">
+<addon id="plugin.video.CubeTor" name="CubeTor" version="1.5.6" provider-name="Cubeplay">
   <requires>
 	<import addon="script.module.metadatautilsmod" version="1.0.0" />
   </requires>
@@ -139,6 +139,7 @@
 1.5.3 - Retorno (1.5.0) fix season e epi do trailers.to
 1.5.4 - Minor tweaks (sort episode/status)
 1.5.5 - Minor fixes
+1.5.6 - Fix temporadas que não eram mostradas trailers.to
 	</description>
     <platform>all</platform>
     <assets>

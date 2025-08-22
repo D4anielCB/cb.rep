@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tmdb.movies"
+       name="TMDb Filmes"
+       version="1.1.0"
+       provider-name="Rick">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt_BR">Navegue por filmes populares e lanamentos do TMDb.</summary>
+    <description lang="pt_BR">Este addon exibe listas de filmes populares e prximos lanamentos diretamente da API do The Movie Database (TMDb). Otimizado para fazer o mnimo de requisies, garantindo uma navegao rpida e eficiente.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon type="default">icon.png</icon>
+    </assets>
+  </extension>
+</addon>
